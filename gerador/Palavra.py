@@ -29,6 +29,10 @@ class Palavra:
                 else:  
                     print(teste)  
                     break
+
+
+def printarPalvra(self):
+    return self.sortear(quantidade,alfabeto,vogais)
             
 
     

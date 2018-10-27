@@ -7,6 +7,7 @@ def main():
     vogal = input("Digite a vogal\n")
     consoante = input("consoa")
     print(gerador.Palavra.sortear(quantidade,vogal,consoante))
+    print(gerador.Palavra.printarPalvra)
 
 
 if __name__ == '__main__':
