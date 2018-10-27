@@ -9,6 +9,9 @@ def main():
     print(gerador.Palavra.sortear(quantidade,vogal,consoante))
     print(gerador.Palavra.printarPalvra)
 
+    if(quantidade == 0):
+        print("Alguma Palvra tem que ser sorteada")
+
 
 if __name__ == '__main__':
     main()
